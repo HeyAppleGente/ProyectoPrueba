@@ -1,0 +1,14 @@
+
+body{
+    background: linear-gradient(90deg,#c7c5f4,#e792227e);
+}
+
+
+input{
+    box-shadow: 2px 2px 2px solid #c7c5f4;
+    margin:10px 200px;
+    
+}
+form{
+    background: none;
+}

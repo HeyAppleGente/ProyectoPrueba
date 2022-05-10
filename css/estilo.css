@@ -1,0 +1,418 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+.head1 {
+    background-image: url(../img/denun1.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    font-family: 'Source Serif 4';
+    width: 100%;
+}
+
+.adog {
+    font-family: 'Source Serif 4';
+}
+
+.nombre {
+    color: white;
+    margin: 10px;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid white;
+    float: left;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.header ul {
+    text-align: right;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 21x;
+    padding: 47px;
+    height: 6px;
+    transition: all ease 0.5s;
+    text-align: left;
+}
+
+.header ul li a:hover {
+    background-color: #211b4385;
+}
+
+.cero {
+    display: flex;
+}
+
+.nuevos {
+    background-color: burlywood;
+    padding: 210px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    height: 580px;
+}
+
+.fotos {
+    margin-top: -20px;
+    margin-left: -40px;
+    margin-bottom: -20px;
+}
+
+.uno {
+    background-color: beige;
+    padding: 210px;
+    color: burlywood;
+    text-align: center;
+    width: 50%;
+    height: 180px;
+}
+
+.fotos ul figure {
+    margin: 0;
+    padding: 0;
+}
+
+.fotos img {
+    width: 100%;
+    height: 500px;
+}
+
+.fotos ul {
+    list-style: none;
+    display: flex;
+}
+
+.fotos ul li figure {
+    position: relative;
+}
+
+.fotos ul li figure:hover figcaption {
+    display: block;
+}
+
+.fotos ul li figcaption {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    padding: 90px;
+    font: 20px/30px 'Source Serif 4';
+    color: white;
+    margin-bottom: 4px;
+}
+
+.servicio {
+    background-color: beige;
+    color: chocolate;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    width: 100%;
+}
+
+.cont4 {
+    display: flex;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 47px;
+}
+
+.foto1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.titulo {
+    position: absolute;
+    top: 300px;
+    color: chocolate;
+    font-size: 80px;
+    font-family: 'Source Serif 4';
+}
+
+.caja {
+    background-image: url(/img/sobre.jpeg);
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 1400px 800px;
+    margin-top: 20px;
+}
+
+.caja2 {
+    margin-left: 70px;
+    margin-top: -20px;
+    border-style: hidden;
+    width: 45.1%;
+    height: 550px;
+    background-color: rgba(0, 0, 0, .23);
+}
+
+.btn {
+    border-radius: 5px;
+    text-align: center;
+    width: 40%;
+    background-color: burlywood;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-color: beige;
+    margin-top: 4px;
+}
+
+.btn:hover {
+    background-color: beige;
+    border-color: sienna;
+    color: sienna;
+}
+
+.cont1 {
+    width: 100%;
+}
+
+.contac h1 {
+    font-size: 27px;
+    text-align: center;
+}
+
+.contac {
+    margin-left: 45px;
+    background-color: beige;
+    width: 100%;
+    padding: 4%;
+    margin-bottom: 35px;
+}
+
+.map-con {
+    display: flex;
+}
+
+.maps {
+    margin-left: 20%;
+    margin-top: 90px;
+    padding: 15px;
+    width: 50%;
+}
+
+.typ {
+    border: 1px solid;
+    padding: 20px;
+    width: 50%;
+    border: 1px solid;
+    padding: 20px;
+    width: 100%;
+}
+
+.typ1 {
+    border: 1px solid;
+    padding: 100px;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: burlywood;
+}
+
+.container-all {
+    width: 90%;
+    padding: 30px;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1 {
+    max-width: 400px;
+}
+
+.column1 h1 {
+    font-size: 24px;
+}
+
+.column1 p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.colum2 {
+    max-width: 400px;
+}
+
+.colum2 h1 {
+    font-size: 32px;
+}
+
+.colum2 .row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img {
+    width: 36px;
+    height: 36px;
+}
+
+.row label {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.colum3 {
+    max-width: 400px;
+}
+
+.colum3 h1 {
+    font-size: 24px;
+}
+
+.row2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img {
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.container-ftr1 {
+    width: 100%;
+    background-color: beige;
+    
+}
+
+.footer {
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+
+.copyright {
+    color: black;
+}
+
+.copyright a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.inf a {
+    text-decoration: none;
+    color: black;
+}
+
+ 
+.container-body {
+     flex-wrap: wrap;
+}
+    .colum2,
+    .colum3 {
+        margin-top: 10px;
+        
+    }
+
+
+.caja2 a {
+    color: black;
+    font-size: 20px;
+}
+
+.btn-2 {
+    border-radius: 5px;
+    text-align: center;
+    width: 60%;
+    background-color: burlywood;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-color: beige;
+    margin-top: 30px;
+}
+
+.btn-2:hover {
+    background-color: beige;
+    border-color: sienna;
+    color: sienna;
+}
+
+
+/*Formulario de adopcion*/
+
+.formulario {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.nocompres {
+    display: flex;
+    justify-content: center;
+}
+
+.boton {
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    display: block;
+    margin: 23px 550px;
+}
+
+fieldset {
+    background: rgba(136, 87, 228, 0.425);
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Dancing+Script&family=EB+Garamond:ital,wght@1,500&family=Josefin+Sans:ital,wght@1,300&family=Playfair+Display:ital@1&family=Shadows+Into+Light&family=Source+Serif+4:ital,wght@1,600&family=Xanh+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <main>
+        <h1 class="h2">Formulario de Adopcion</h1>
+
+        <picture class="nocompres">
+
+            <img src="img/nocompresadopta.jpg" alt="Imagen de adopcion">
+        </picture>
+
+        <h2 class="h2">Llene el formulario de adopcion</h2>
+
+        <form class="formulario"  action="https://formsubmit.co/christianjvt99@gmail.com" method="post">
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                <label for="nombre">Nombres</label>
+                <input type="text" placeholder="Nombres" id="datos" name="Nombre">
+                <br>
+                <br>
+
+                <label for="nombre">Apellidos</label>
+                <input type="text" placeholder="Apellidos" id="datos" name="Apellidos">
+                <br>
+                <br>
+
+                <label for="nombre">Edad</label>
+                <input type="text" placeholder="Edad" id="datos" name="Edad">
+                <br>
+                <br>
+
+                <label for="nombre">Direccion</label>
+                <input type="text" placeholder="Direccion" id="datos" name="Dirección">
+                <br>
+                <br>
+
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="Correo electronico" id="datos" name="Email">
+                <br>
+                <br>
+
+                <label for="telefono">Teléfono</label>
+                <br>
+                <input type="tel" placeholder="Teléfono" id="datos" name="Telefono">
+                <br>
+                <br>
+
+                <label for="mensaje">Motivo de adopcion:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+            </fieldset>
+            <!--formulario de adopcion -->
+            <fieldset>
+                <legend>Informacion personal</legend>
+
+                <label for="opciones">¿Actualmente tiene otros animalitos?</label>
+                <select id="opciones" name="Actualmente tiene otros animalitos?">
+                    <option value=" " disabled selected>-- Seleccione --</option>
+                    <option value="afirmacion ">SI</option>
+                    <option value="negacion ">NO</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="datos ">Si su respuesta es sí, por favor mencione tipo, edad y número</label>
+                <input type="number " placeholder="Tipo " id="datos ">
+                <input type="number " placeholder="Edad " id="datos ">
+                <input type="number " placeholder="Número " id="datos ">
+                <br>
+                <br>
+                <!--Segunda -->
+                <label for="opciones ">¿Está de acuerdo en que se haga una visita periódica a su domicilio para ver cómo se encuentra el animalito adoptado?</label>
+                <select id="opciones ">
+                    <option value=" " disabled selected>-- Seleccione --</option>
+                    <option value="afirmacion ">SI</option>
+                    <option value="negacion ">NO</option>
+                </select>
+                <br>
+                <br>
+                <!--tercera -->
+                <label for="opciones ">¿Hay niños en casa?</label>
+                <select id="opciones ">
+                     <option value=" " disabled selected>-- Seleccione --</option>
+                     <option value="afirmacion ">SI</option>
+                     <option value="negacion ">NO</option>
+                     <input type="tel " placeholder="Edades " id="datos ">
+                 </select>
+                <br>
+                <br>
+                <!--cuarta -->
+                <label for="opciones ">¿Alguien que viva con ustedes es alérgico a los animales o sufre de asma?</label>
+                <select id="opciones ">
+      <option value=" " disabled selected>-- Seleccione --</option>
+      <option value="afirmacion ">SI</option>
+      <option value="negacion ">NO</option>
+      <input type="tel " placeholder="Alergias " id="datos "><br><br>
+
+<label for="datos "> ¿Vives en casa o departamento?, Si es departamento, ¿permiten mascotas en el
+    edificio?</label>
+  <input type="text "  id="datos "><br><br>
+
+  <label for="datos ">¿Cuentas con un presupuesto para cubrir los gastos de la mascota que deseas
+    adoptar?</label>
+    <input type="text " id="datos ">
+  </select>
+
+            </fieldset>
+            <fieldset>
+                <legend>Información adicional</legend>
+                <br>
+                <br>
+                <label for="datos ">¿Conoces los cuidados que requiere una mascota como la que deseas adoptar?
+                    Descríbelos </label>
+                <br> <input type="text " placeholder=" " id="datos ">
+                <br>
+                <br>
+                <label for="datos ">Cuándo estés fuera de casa, ¿Dónde estará tu mascota? ¿Se quedará sola en casa?
+                    ¿Qué cantidad de tiempo pasaría sola?</label>
+                <input type="text " placeholder=" " id="datos "><br><br>
+
+                <label for="datos ">¿Qué harás con tu mascota si tienes que viajar lejos?
+                        </label>
+                <br>
+                <br>
+                <input type="text " placeholder=" " id="datos ">
+                <br>
+                <br>
+                 
+            </fieldset>
+                <input class="boton" type="submit" value="Enviar" style="margin-top: -10px; margin-left: 700px;">
+           
+
+
+        </form>
+
+    </main>
+
+
+
+</body>
+
+</html>

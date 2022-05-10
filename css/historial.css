@@ -1,0 +1,15 @@
+
+    body {
+        background-image: url(../php/img/historia.jpg);
+        background-repeat: no-repeat;
+        background-position: right top;
+        margin-right: 200px
+      }
+table{
+  border-style: double;
+  border-color: rgb(37, 37, 42);}
+    table th {background-color: rgb(179, 179, 119); }
+    table tr:nth-child(odd) {background-color: grey;}
+    table tr:nth-child(even) {background-color: rgb(173, 177, 224);
+    }
+     
